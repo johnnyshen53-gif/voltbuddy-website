@@ -94,6 +94,7 @@ h1, h2, h3, p { margin: 0; }
 .page-hero h1 { font-size: 46px; line-height: 1.25; font-weight: 900; }
 .page-hero p.lead { color: var(--on-navy); max-width: 640px; }
 .page-hero .photo { height: 340px; }
+.lineup { width: 100%; height: auto; border-radius: 24px; display: block; }
 
 /* ---------- 圖示方塊 ---------- */
 .icon-box { width: 56px; height: 56px; border-radius: 16px; background: var(--navy); display: flex; align-items: center; justify-content: center; }
