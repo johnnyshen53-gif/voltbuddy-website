@@ -120,7 +120,8 @@ h1, h2, h3, p { margin: 0; }
 .model-grid { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
 .model { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; }
 .model-media { aspect-ratio: 4 / 3; background: #E9EEF2; display: flex; align-items: center; justify-content: center; }
-.model-media img { width: 100%; height: 100%; object-fit: cover; }
+.model-media:has(img) { aspect-ratio: auto; }
+.model-media img { width: 100%; height: auto; }
 .model-body { padding: 22px 26px 26px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
 .model-body h3 { font-size: 22px; font-weight: 700; }
 .model-cat { align-self: flex-start; background: #E3FBEF; color: var(--link); font-size: 13px; font-weight: 700; padding: 3px 10px; border-radius: 999px; }
